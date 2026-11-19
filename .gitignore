@@ -1,0 +1,17 @@
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+OPENROUTER_API_KEY
+COMPOSIO_API_KEY
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Agent checkpoints and generated posts
+/agent_state.db
+/agent_state.db-*
+/approved_posts/
